@@ -1,3 +1,4 @@
+// convertToCelsius algorithm
 function printDeg(F) {
 
     let H = JSON.stringify(F);
@@ -15,7 +16,7 @@ function printDeg(F) {
 
 console.log(printDeg());
 
-
+// algorithm for checkYuGiOh code
 function checkYuGiOh(n) {
     if (typeof n != 'number') {
         return `iNVALID PARAMETER: ${JSON.stringify(n)}`
