@@ -1,4 +1,4 @@
-// convertToCelsius algorithm
+// convertFahrToCelsius algorithm
 function printDeg(F) {
 
     let H = JSON.stringify(F);
