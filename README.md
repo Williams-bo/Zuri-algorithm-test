@@ -1,4 +1,4 @@
-## javascript-algorithms-zuri
+## [javascript-algorithms-zuri](https://williams-bo.github.io/javascript-algorithms-zuri/)
 
 Note:
 
