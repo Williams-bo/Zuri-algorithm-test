@@ -1,5 +1,7 @@
 ## [javascript-algorithms-zuri](https://williams-bo.github.io/javascript-algorithms-zuri/)
 
+1. Write a function named "convertFahrToCelsius" that takes a single parameter and converts it to celsius.
+
 Note:
 
 - Round up your answers to 4 decimal places (hint: use the toFixed method)

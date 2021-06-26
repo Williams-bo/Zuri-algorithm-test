@@ -1,22 +1,29 @@
-// convertFahrToCelsius algorithm
+// 1. convertFahrToCelsius algorithm
 function printDeg(F) {
   let H = JSON.stringify(F);
 
   if (typeof F === "number" || !isNaN(parseFloat(F))) {
     let C = ((F - 32) * 5) / 9;
+    document.querySelector(".printDeg").innerText = Number(C.toFixed(4));
     return Number(C.toFixed(4));
   } else if (Array.isArray(F)) {
+    document.querySelector(
+      ".printDeg"
+    ).innerText = `${H} is not a number but a/an array`;
     return `${H} is not a number but a/an array`;
   } else {
+    document.querySelector(
+      ".printDeg"
+    ).innerText = `${H} is not a number but a/an ${typeof F}`;
     return `${H} is not a number but a/an ${typeof F}`;
   }
 }
-console.log(printDeg(100)); // example input: 100 degrees
-document.querySelector(".printDeg").innerText = printDeg(100); // example input: 100 degrees
+console.log(printDeg());
 
-// algorithm for checkYuGiOh code
+// 2. checkYuGiOh algorithm
 function checkYuGiOh(n) {
-  if (typeof n != "number") {
+  let check = parseFloat(n);
+  if (!check) {
     return `iNVALID PARAMETER: ${JSON.stringify(n)}`;
   }
 
@@ -43,8 +50,7 @@ function checkYuGiOh(n) {
       result.push(i);
     }
   }
+  document.querySelector(".checkYuGiOh").innerText = result;
   return result;
 }
-
-console.log(checkYuGiOh(15)); // example input: 1 up to 15
-document.querySelector(".checkYuGiOh").innerText = checkYuGiOh(15); // example input: 1 up to 15
+console.log(checkYuGiOh());

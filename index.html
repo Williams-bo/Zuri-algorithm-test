@@ -8,13 +8,38 @@
     <link rel="stylesheet" href="bootstrap/bootstrap.css" />
   </head>
   <body>
+    <!-- checkYuGiOh -->
     <div class="border-5 bg-success col-md-6 offset-md-3 my-5 container">
       <div class="pt-5 mt-5 text-white h4 text-center">checkYuGiOh</div>
       <div class="checkYuGiOh pb-5 h4 text-center text-white"></div>
+
+      <!-- input -->
+      <input type="number" id="input-one" />
+      <input
+        type="button"
+        class="btn btn-info"
+        onclick="checkYuGiOh(document.getElementById('input-one').value)"
+        value="Go!"
+      />
+      <span class="text-white ps-2">Try 5 :)</span>
     </div>
+
+    <!-- convertFahrToCelsius -->
     <div class="border-5 bg-success col-md-6 offset-md-3 my-5 container">
-      <div class="pt-5 mt-5 text-white h4 text-center">printDeg</div>
+      <div class="pt-5 mt-5 text-white h4 text-center">
+        convertFahrToCelsius
+      </div>
       <div class="printDeg pb-5 h4 text-center text-white"></div>
+
+      <!-- input -->
+      <input type="number" id="input" />
+      <input
+        type="button"
+        class="btn btn-info"
+        onclick="printDeg(document.getElementById('input').value)"
+        value="Go!"
+      />
+      <span class="text-white ps-2">Try 0 :)</span>
     </div>
   </body>
   <script src="script.js"></script>
