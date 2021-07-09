@@ -1,4 +1,4 @@
-## [javascript-algorithms-zuri](https://williams-bo.github.io/javascript-algorithms-zuri/)
+## [Javascript Algorithms - Task V ZuriTraining](https://williams-bo.github.io/javascript-algorithms-zuri/)
 
 1. Write a function named "convertFahrToCelsius" that takes a single parameter and converts it to celsius.
 
